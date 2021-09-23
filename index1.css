@@ -1,0 +1,296 @@
+body {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+    url("https://assets.nflxext.com/ffe/siteui/vlv3/5a27cb25-33a9-4bcc-b441-95fefabcbd37/2548691d-4d8c-4d97-b96d-449d3cca5d7e/IN-en-20210823-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  font-family: sans-serif;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.navbar {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nflogo {
+  margin-left: 50px;
+  width: 170px;
+  height: 170px;
+}
+.langeng {
+  cursor: pointer;
+  outline: none;
+  font-size: 20px;
+  margin-right: 20px;
+  background-color: rgba(0, 0, 0, 0.473);
+  color: white;
+}
+.langsec {
+  display: flex;
+  position: relative;
+  font-size: 22px;
+}
+.btn-signin {
+  cursor: pointer;
+  position: relative;
+  font-size: 20px;
+  padding: 3px 8px;
+  border: 2px solid red;
+  background-color: red;
+  color: white;
+  border-radius: 3px;
+  margin-right: 80px;
+  display: flex;
+  flex-direction: row;
+}
+.sec-1 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  margin-top: 120px;
+}
+.firstheading {
+  font-size: 60px;
+  margin-bottom: -48px;
+}
+.firsthead {
+  font-size: 53px;
+  margin-bottom: -10px;
+}
+.secondheading {
+  font-size: 25px;
+  margin-bottom: -20x;
+}
+.thirdheading {
+  font-size: 20px;
+}
+.emailcontainer {
+  width: 500px;
+  height: 54px;
+  outline: none;
+  border: transparent;
+  background-color: white;
+  margin-right: -5px;
+  margin-bottom: 240px;
+  border: black;
+}
+.btnstarted {
+  cursor: pointer;
+  height: 57px;
+  width: 180px;
+  border: black;
+  background-color: #e50914;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+.greytopborder {
+  display: flex;
+  width: 100%;
+  height: 6px;
+  background-color: rgb(59, 58, 58);
+}
+.darkspace {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 450px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.808);
+}
+.darktext {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 35%;
+  align-items: center;
+  text-align: right;
+}
+.darktext h1 {
+  font-size: 50px;
+  text-align: left;
+  width: 100%;
+}
+.darktext p {
+  font-size: 25px;
+  text-align: left;
+  width: 100%;
+}
+.livetvanimation {
+  width: 500px;
+}
+.livetvanimation img {
+  z-index: 3;
+  width: 540px;
+  position: absolute;
+}
+.animation1 {
+  z-index: 2;
+  position: absolute;
+  width: 380px;
+  padding: 90px;
+  margin-left: -12px;
+}
+.download img {
+  height: 370px;
+}
+.strangerthings {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: absolute;
+  width: 320px;
+  margin-left: 80px;
+  margin-top: -120px;
+  padding: 7px;
+  background-color: black;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  border-radius: 9px;
+}
+.strangerthings img {
+  max-width: 100%;
+  height: 4em;
+  width: 55px;
+}
+.strt {
+  font-size: 15px;
+  margin-bottom: -5px;
+}
+.downl {
+  color: blue;
+}
+.down {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: white;
+}
+.kids {
+  height: 400px;
+  width: 100%;
+}
+.animation2 {
+  z-index: 2;
+  position: absolute;
+  width: 340px;
+  padding: 95px;
+  margin-top: -60px;
+}
+.faq-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.671);
+}
+.faq-heading {
+  color: white;
+  font-size: 45px;
+}
+.g1 {
+  font-size: 30px;
+  color: white;
+}
+p {
+  color: white;
+  font-size: 20px;
+}
+.greybox {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-color: rgb(41, 40, 40);
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+.greyboxin {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 12px;
+  margin-right: 13px;
+}
+.plus-btn {
+  cursor: pointer;
+  color: white;
+  font-size: 40px;
+  background: none;
+  border: none;
+}
+.greyboxout hr {
+  width: 100%;
+  margin: 0;
+  background-color: black;
+  border: 1px solid black;
+}
+.greyboxout {
+  display: none;
+  flex-direction: column;
+  padding-left: 18px;
+  text-align: left;
+  padding-right: 10px;
+}
+.greyboxout p {
+  font-size: 25px;
+}
+.e-sec {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.hd {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.emailcontainer-2 {
+  width: 500px;
+  height: 54px;
+  outline: none;
+  border: transparent;
+  background-color: white;
+  border: black;
+}
+.btnstarted-2 {
+  cursor: pointer;
+  height: 57px;
+  width: 180px;
+  border: black;
+  background-color: #e50914;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 280px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.808);
+}
+.foot2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.foot1 {
+  display: flex;
+  flex-direction: column;
+}
+.hrf {
+  font-size: 15px;
+  margin-bottom: 15px;
+  color: grey;
+  text-decoration: none;
+}
+.qna {
+  padding-left: 200px;
+}
